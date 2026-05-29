@@ -18,9 +18,9 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          pip install anthropic
+    - name: Install dependencies
+  run: |
+    pip install anthropic PySide6
 
       - name: Run main.py
         env:
